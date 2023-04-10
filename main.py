@@ -74,7 +74,6 @@ while True:
                 "rank": rank,
             }
             new_String.append(dictionary)
-            print(new_String)
         else:
             savedUsernames.append(values[0])
             user = values[0]
@@ -89,7 +88,6 @@ while True:
                 "rank": rank,
             }
             new_String.append(dictionary)
-            print(new_String)
         window["-ACCOUNT LIST-"].update(usernameAndElo)
 
     # Delete Element from the List
