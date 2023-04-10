@@ -140,6 +140,7 @@ while True:
                     pyautogui.hotkey('tab')
                     pyperclip.copy(password)
                     pyautogui.hotkey('ctrl', 'v')
+                    pyperclip.copy("")
                     i = 0
                     while i < 6:
                         pyautogui.hotkey('tab')
